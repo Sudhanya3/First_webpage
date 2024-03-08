@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Vedas</title>
+    <header>
+      <h1>Sacred Texts - The Vedas</h1>
+    </header>
+    <div class="navbar">
+      <a href="first_page.html">RIGVEDA</a>
+      <a href="second_page.html">SAMAVEDA</a>
+      <a href="third_page.html">YAJURVEDA</a>
+      <a href="fourth_page.html">ATHARVAVEDA</a>
+    </div>
+  </head>
+  <body>
+    <h2>Origin of SamaVeda</h2>
+    <p>
+      The Samaveda is believed to have been compiled around the same time as the
+      Rigveda, between 1500 BCE and 1200 BCE. It is derived from the Rigveda and
+      is closely related to it, with many of its verses borrowed directly from
+      the Rigvedic hymns. While the Rigveda is primarily a collection of hymns
+      in verse form, the Samaveda focuses on the musical aspect of these hymns,
+      providing melodies and chants for use in rituals and ceremonies.
+    </p>
+    <form>
+      <fieldset>
+        <legend>Quiz</legend>
+        <div class="form-group">
+          <label for="answer">What's the name of first Veda?</label>
+          <input
+            type="text"
+            id="answer"
+            required
+            minlength="6"
+            maxlength="11"
+          />
+          <br />
+          <label for="last_veda">What's the name of fourth Veda?</label>
+          <input
+            type="text"
+            id="last_veda"
+            minlength="10"
+            maxlength="11"
+            required
+          />
+          <br />
+          <label for="input">Have you read the Origin of SamaVeda?</label>
+          <input type="checkbox" id="input" />Yes
+          <input type="checkbox" id="input" />No
+          <br />
+          <label for="review"
+            >Tell me what you think of the origin stories</label
+          >
+          <textarea id="review" name="review" rows="5" cols="30"> </textarea>
+          <button name="submit">submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
